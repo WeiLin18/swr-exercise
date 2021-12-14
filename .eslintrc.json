@@ -1,0 +1,13 @@
+{
+  "extends": ["eslint:recommended", "next", "react-app"],
+  "plugins": ["prettier"],
+  "rules": {
+    "no-console": "warn",
+    "global-require": "warn",
+    "no-shadow": "warn",
+    "prettier/prettier": "error"
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
